@@ -18,6 +18,7 @@
 		2A369BC32B87CF6500FC0E25 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 2A369BC22B87CF6500FC0E25 /* SwiftUIFontIcon */; };
 		2A369BC52B87D02300FC0E25 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A369BC42B87D02300FC0E25 /* TransactionListViewModel.swift */; };
 		2A369BC72B87D44F00FC0E25 /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A369BC62B87D44F00FC0E25 /* RecentTransactionList.swift */; };
+		2A369BC92B87FD0800FC0E25 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A369BC82B87FD0800FC0E25 /* TransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2A369BBF2B87CBC300FC0E25 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		2A369BC42B87D02300FC0E25 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		2A369BC62B87D44F00FC0E25 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		2A369BC82B87FD0800FC0E25 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				2A369BA92B87C4F100FC0E25 /* ExpenseTrackerApp.swift */,
 				2A369BAB2B87C4F100FC0E25 /* ContentView.swift */,
 				2A369BC62B87D44F00FC0E25 /* RecentTransactionList.swift */,
+				2A369BC82B87FD0800FC0E25 /* TransactionList.swift */,
 				2A369BBF2B87CBC300FC0E25 /* TransactionRow.swift */,
 				2A369BC42B87D02300FC0E25 /* TransactionListViewModel.swift */,
 				2A369BBB2B87CA1E00FC0E25 /* TransactionModel.swift */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A369BBE2B87CB2D00FC0E25 /* PreviewData.swift in Sources */,
+				2A369BC92B87FD0800FC0E25 /* TransactionList.swift in Sources */,
 				2A369BC72B87D44F00FC0E25 /* RecentTransactionList.swift in Sources */,
 				2A369BBC2B87CA1E00FC0E25 /* TransactionModel.swift in Sources */,
 				2A369BAC2B87C4F100FC0E25 /* ContentView.swift in Sources */,
